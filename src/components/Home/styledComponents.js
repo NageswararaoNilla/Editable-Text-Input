@@ -35,18 +35,23 @@ export const InputContainer = styled.div`
 `
 
 export const Input = styled.input`
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 20px;
   width: 80%;
   max-width: 250px;
-  height: 24px;
+  height: 32px;
   padding: 8px 16px;
   margin-right: 12px;
   border-radius: 5px;
+  border: 2px solid #cbd2d9;
+  outline: none;
 `
 
 export const Text = styled.p`
-  color: #000000;
+  color: #323f4b;
   font-family: 'Roboto';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   width: 80%;
   min-width: 100px;
